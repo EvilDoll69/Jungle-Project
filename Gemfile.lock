@@ -201,7 +201,7 @@ DEPENDENCIES
   jquery-rails
   money-rails
   newrelic_rpm
-  pg
+  pg (= 0.18.4)
   puma
   quiet_assets
   rails (= 4.2.6)
