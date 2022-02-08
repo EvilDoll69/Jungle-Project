@@ -13,7 +13,6 @@ RSpec.describe User, type: :model do
 
     it "is invalid without a first_name" do
       @user.first_name = nil
-      # @user = User.new(first_name: nil, last_name: 'Fox', email: 'sonia@gmail.com', password: '123456', password_confirmation: '123456')
       @user.save
       expect(@user).to_not be_valid
       expect(@user.errors.full_messages).to include("First name can't be blank")
