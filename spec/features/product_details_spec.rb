@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "ProductDetails", type: :feature do
+RSpec.feature "ProductDetails", type: :feature, js: true do
   
   # SETUP
   before :each do
@@ -26,7 +26,7 @@ RSpec.feature "ProductDetails", type: :feature do
     sleep 5
     # puts page.html
     # DEBUG
-    # save_screenshot
+    save_screenshot
   
     # VERIFY
     expect(page).to have_content('Description')
