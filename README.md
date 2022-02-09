@@ -9,6 +9,14 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 2. Remove Gemfile.lock
 3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
 
+## Captures
+
+!["Product Catalog/Main page"](https://github.com/EvilDoll69/Jungle-Project/blob/master/Screenshots/Main%20page.png)
+!["Login page"](https://github.com/EvilDoll69/Jungle-Project/blob/master/Screenshots/Login%20page.png)
+!["Signup Page"](https://github.com/EvilDoll69/Jungle-Project/blob/master/Screenshots/Signup%20page.png)
+!["Cart"](https://github.com/EvilDoll69/Jungle-Project/blob/master/Screenshots/Cart.png)
+!["Payment"](https://github.com/EvilDoll69/Jungle-Project/blob/master/Screenshots/Payment.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
